@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Shadowsocks
+Icon=/usr/local/shadowsocks/shadowsocks.png
+Exec=/usr/local/shadowsocks/shadowsocks.AppImage
+Terminal=false
+Categories=Network
