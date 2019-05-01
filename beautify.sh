@@ -8,9 +8,7 @@ sudo apt-get install -y gnome-shell-extension-dashtodock
 sudo apt-get install -y wine-stable
 
 # download resouces
-cd /usr/local/src
-git clone 
-cd beautify-ubuntu18
+cd /usr/local/src/beautify-ubuntu18
 
 mv themes_icons/Sierra* /usr/local/share/themes
 mv themes_icons/MacOSX* /usr/local/share/icons
@@ -46,7 +44,7 @@ apt-get install -f -y
 dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
 
 # install shadowsocks
-cp shadowsocks /usr/local/shadowsocks
+cp -r shadowsocks /usr/local/shadowsocks
 # add desktop icons
 cp -r desktops/*.desktop /usr/share/applications
 
